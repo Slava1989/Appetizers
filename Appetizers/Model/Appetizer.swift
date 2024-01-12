@@ -27,7 +27,7 @@ struct MockData {
                                            imageURL: "",
                                            name: "Test Appetizer",
                                            price: 9.99,
-                                           description: "This is a description for appetizer",
+                                           description: "This is a description for appetizer. Smth very long and informative",
                                            carbs: 99,
                                            calories: 99,
                                            protein: 99)

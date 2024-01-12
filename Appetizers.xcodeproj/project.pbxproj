@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		205B03B92B5076A7009876B1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205B03B82B5076A7009876B1 /* LoadingView.swift */; };
 		205B03BD2B509073009876B1 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205B03BC2B509073009876B1 /* RemoteImage.swift */; };
+		205B03C92B5153BB009876B1 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205B03C82B5153BB009876B1 /* AppetizerDetailView.swift */; };
+		205B03CC2B51D577009876B1 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205B03CB2B51D577009876B1 /* APButton.swift */; };
+		205B03CE2B51D6B8009876B1 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205B03CD2B51D6B8009876B1 /* XDismissButton.swift */; };
 		207C7C642B480CA200D1FD20 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C7C632B480CA200D1FD20 /* AppetizersApp.swift */; };
 		207C7C662B480CA200D1FD20 /* AppetizersTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207C7C652B480CA200D1FD20 /* AppetizersTabView.swift */; };
 		207C7C682B480CA300D1FD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207C7C672B480CA300D1FD20 /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 /* Begin PBXFileReference section */
 		205B03B82B5076A7009876B1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		205B03BC2B509073009876B1 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		205B03C82B5153BB009876B1 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		205B03CB2B51D577009876B1 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		205B03CD2B51D6B8009876B1 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		207C7C602B480CA200D1FD20 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207C7C632B480CA200D1FD20 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		207C7C652B480CA200D1FD20 /* AppetizersTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersTabView.swift; sourceTree = "<group>"; };
@@ -107,6 +113,7 @@
 		205B03C42B509741009876B1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				205B03CA2B51D568009876B1 /* Buttons */,
 				205B03C72B509777009876B1 /* Image */,
 				205B03C62B509762009876B1 /* Cells */,
 				205B03C52B509748009876B1 /* UIKit Components */,
@@ -136,6 +143,15 @@
 				205B03BC2B509073009876B1 /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		205B03CA2B51D568009876B1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				205B03CB2B51D577009876B1 /* APButton.swift */,
+				205B03CD2B51D6B8009876B1 /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		207C7C572B480CA200D1FD20 = {
@@ -191,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				207C7C712B480D2300D1FD20 /* AppetizersListView.swift */,
+				205B03C82B5153BB009876B1 /* AppetizerDetailView.swift */,
 				207C7C812B502F0B00D1FD20 /* AppetizersViewModel.swift */,
 			);
 			path = AppetizerListView;
@@ -269,16 +286,19 @@
 				207C7C782B48216000D1FD20 /* Appetizer.swift in Sources */,
 				207C7C7E2B482B9300D1FD20 /* APError.swift in Sources */,
 				207C7C7A2B48298900D1FD20 /* AppetizerListCell.swift in Sources */,
+				205B03CC2B51D577009876B1 /* APButton.swift in Sources */,
 				207C7C742B480D3500D1FD20 /* AccountView.swift in Sources */,
 				207C7C662B480CA200D1FD20 /* AppetizersTabView.swift in Sources */,
 				205B03B92B5076A7009876B1 /* LoadingView.swift in Sources */,
 				205B03BD2B509073009876B1 /* RemoteImage.swift in Sources */,
 				207C7C7C2B482AAC00D1FD20 /* NetworkManager.swift in Sources */,
+				205B03C92B5153BB009876B1 /* AppetizerDetailView.swift in Sources */,
 				207C7C642B480CA200D1FD20 /* AppetizersApp.swift in Sources */,
 				207C7C722B480D2300D1FD20 /* AppetizersListView.swift in Sources */,
 				207C7C842B50327200D1FD20 /* Alert.swift in Sources */,
 				207C7C762B480D4000D1FD20 /* OrderView.swift in Sources */,
 				207C7C822B502F0B00D1FD20 /* AppetizersViewModel.swift in Sources */,
+				205B03CE2B51D6B8009876B1 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
