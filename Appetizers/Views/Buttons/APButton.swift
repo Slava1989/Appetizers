@@ -14,7 +14,7 @@ struct APButton: View {
         Text(title)
             .font(.title3)
             .fontWeight(.semibold)
-            .frame(width: 200, height: 50)
+            .frame(width: 250, height: 50)
             .foregroundStyle(.white)
             .background(.brandPrimary)
             .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))

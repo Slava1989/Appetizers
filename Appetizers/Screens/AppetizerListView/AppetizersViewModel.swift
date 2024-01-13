@@ -5,9 +5,11 @@
 //  Created by Slava Chirita on 11.01.2024.
 //
 
-import Foundation
+import SwiftUI
 
 final class AppetizersViewModel: ObservableObject {
+    @AppStorage("orders") private var ordersData: Data?
+    
     @Published var appetizers: [Appetizer] = []
     @Published var alertItem: AlertItem?
     @Published var isLoading: Bool = false
@@ -36,5 +38,9 @@ final class AppetizersViewModel: ObservableObject {
                 }
             }
         }
+    }
+    
+    func order(_ appetizer: Appetizer) {
+        
     }
 }
